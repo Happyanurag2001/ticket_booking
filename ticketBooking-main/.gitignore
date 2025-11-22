@@ -1,0 +1,43 @@
+# Bytecode / build
+.gradle/
+/build/
+**/build/
+
+# Gradle wrapper - keep wrapper files committed so others can build
+# (do NOT ignore gradle/wrapper/gradle-wrapper.jar or gradle-wrapper.properties)
+
+# IntelliJ / JetBrains
+.idea/
+*.iml
+out/
+
+# Compiled class files
+*.class
+
+# Logs and temp files
+*.log
+tmp/
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+*~
+*.swp
+
+# Secrets / local properties
+*.keystore
+*.jks
+.env
+local.properties
+
+# Optional: local/test data - uncomment if you want to ignore local DB JSON files
+# app/src/main/java/ticket/booking/localDB/*.json
+
+# Other
+coverage/
+report/
